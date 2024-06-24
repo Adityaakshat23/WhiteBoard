@@ -2,6 +2,7 @@
 
 import React from 'react'
 import { ToolSettings } from '@/components/tools/tool-settings'
+import AipredictButton from '../tools/Aipredict'
 import ClearCanvasButton from '@/components/tools/clear-canvas'
 import TakeScreenShotButton from '@/components/tools/take-screenshot'
 import { LiveCollab } from '../tools/live-collab'
@@ -18,6 +19,7 @@ export default function DrawBoardHeader() {
                     <TakeScreenShotButton />
                     <LiveCollab />
                     <ToolSettings />
+                    <AipredictButton />
                 </div>
             </div>
         </div>

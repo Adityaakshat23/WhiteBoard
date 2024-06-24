@@ -80,6 +80,14 @@
         "async": false
       }
     },
+    "(app-client)/./src/components/tools/Aipredict.tsx": {
+      "*": {
+        "id": "(sc_client)/./src/components/tools/Aipredict.tsx",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
     "(app-client)/./src/components/tools/clear-canvas.tsx": {
       "*": {
         "id": "(sc_client)/./src/components/tools/clear-canvas.tsx",
@@ -365,6 +373,14 @@
     },
     "C:\\Users\\adity\\OneDrive\\デスクトップ\\White_board\\client\\src\\components\\theme-provider.tsx": {
       "id": "(app-client)/./src/components/theme-provider.tsx",
+      "name": "*",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\adity\\OneDrive\\デスクトップ\\White_board\\client\\src\\components\\tools\\Aipredict.tsx": {
+      "id": "(app-client)/./src/components/tools/Aipredict.tsx",
       "name": "*",
       "chunks": [
         "app/layout:static/chunks/app/layout.js"

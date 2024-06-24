@@ -95,7 +95,7 @@ app.post('/check-room', (req, res) => {
 server.listen(3001, () => {
     console.log('✔️ Server listening on port 3001')
 })
-export async function POST() {
+/*export async function POST() {
     const res = await fetch('https://data.mongodb-api.com/...', {
       method: 'POST',
       headers: {
@@ -108,4 +108,4 @@ export async function POST() {
     const data = await res.json()
    
     return Response.json(data)
-  }
+  }*/
